@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+
+<!--
+ _________________________________________________________
+|                                                        			   |
+|    DESIGN + http://fullahead.org                        		   |
+|      DATE + 2005.05.12                                 			   |
+| COPYRIGHT + free use if this notice is kept in place   		   |
+|_________________________________________________________ |
+
+-->
+
+<head>
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta name="author" content="<!--Author-->" />
+  <title><!--Title--></title>
+  <link rel="stylesheet" type="text/css" href="files/styles.css" />
+</head>
+
+<body>
+
+<div id="siteBox">
+
+  <div id="header">
+    <img src="files/corner_tl.gif" alt="corner" style="float:left;" />
+
+    <span class="title">
+      <span class="white"><!--Title--></span>
+    </span>
+  </div>
+
+  <div id="content">
+    <div id="contentLeft">
+      <p>
+        <span class="header">Menu</span>
+      </p>
+      <p>
+				<!--MenuItems-->
+      </p>
+      <div class="bottomCorner">
+        <img src="files/corner_sub_br.gif" alt="bottom corner" class="vBottom"/>
+      </div>
+    </div>
+
+
+    <div id="contentRight">
+      <p>
+        <span class="header"><!--PageName--></span>
+      </p>
+			<!--PageContent-->
+      <img src="files/corner_sub_bl.gif" alt="bottom corner" class="vBottom"/>
+    </div>
+  </div>
+
+
+  <div id="footer">
+    <div id="footerLeft">
+      &nbsp;&nbsp;&nbsp;&copy;<!--Year--> <!--Author-->.
+    </div>
+    <div id="footerRight">
+      &nbsp;
+    </div>
+  </div>
+</div>
+</body>
+</html>

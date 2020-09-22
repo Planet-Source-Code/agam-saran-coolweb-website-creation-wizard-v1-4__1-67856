@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="author" content="<!--Author-->" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="files/styles.css" type="text/css" />
+	<title><!--Title--></title>
+</head>
+<body>
+	<div id="page" align="center">
+		<div id="content" style="width:800px">
+			<div id="logo">
+				<div style="margin-top:70px" class="whitetitle"><!--Title--></div>
+			</div>
+			<div id="topheader">
+				<div id="toplinks" class="smallgraytext">
+				</div>
+			</div>
+			<div id="menu">
+				<div align="right" class="smallwhitetext" style="padding:9px;">
+					<!--MenuItems-->
+				</div>
+			</div>
+			<div id="submenu">
+			</div>
+				<div style="padding:10px">
+					<span class="titletext"><!--PageName--></span>
+					</div>
+					<div class="bodytext" style="padding:12px;" align="justify">
+					<!--PageContent-->
+					</div>
+			<div id="footer" class="smallgraytext">
+				&copy; <!--Year--> <!--Author--> | <a href="http://www.winkhosting.com" target="_blank">Hosting Colombia</a> 
+			</div>
+		</div>
+	</div>
+</body>
+</html>
