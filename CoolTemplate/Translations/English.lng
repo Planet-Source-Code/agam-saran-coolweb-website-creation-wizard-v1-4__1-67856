@@ -1,0 +1,109 @@
+; English (Default) Translation for CoolTemplate
+
+
+; Strings for names of wizard-steps and their descriptions (shown at the top)
+; ----------------------------------------------------------------------------------------------
+String1=Select Template File
+String2=Select where the HTML file of your template is located.
+String3=Provide Information
+String4=Please provide the following information required to build your template.
+String5=Place Comments
+String6=Place the required comments at their places in the document.
+String7=Setup Menu-Items
+String8=Provide code for a single menu-item and place comments in this code.
+
+
+; Other strings for different texts used in the GUI
+; ----------------------------------------------------------------------------------------------
+; Strings for the Caption and ToolTip of "cmdNext" button which change as the wizard continues
+String101=&Next >
+String102=Continue to next step
+String103=&Build
+String104=Build the template
+String105=&Finish
+String106=Finish creating template
+; Descriptions of the comments
+String107=Title of the website
+String108=Name of the author of website
+String109=Name of the current page in website
+String110=HTML code of content in the current page
+String111=HTML code of all the menu-items
+String112=Year of creation of the website
+String113=Date of creation of the website
+String114=Name of current menu-item
+String115="href" of current menu-item
+
+
+; Strings for messages shown in message-boxes and their titles
+; ----------------------------------------------------------------------------------------------
+String501=Invalid Template
+String502=The template file you specified is invalid. Please provide a valid path for your template file.
+String503=No Name
+String504=You must enter the name of template.
+String505=Already Exists
+String506=The template name you specified already exists, please choose another name.
+String507=No Code
+String508=The HTML code for a single menu-item is not specified.
+String509=No CoolWeb
+String510=CoolWeb was not found, please run CoolWeb atleast once in order to use CoolTemplate.
+String511=Reload CoolTemplate
+String512=CoolTemplate requires to reload to continue. Click OK to reload and erase the work you were doing. Click Cancel to show changes next time.
+
+
+[frmMain]
+frmMain=CoolTemplate - Template Creation Wizard
+cmdNext=&Next > | Continue to next step
+cmdBack=< &Back | Go to previous step
+cmdCancel=&Cancel | Exit CoolTemplate
+cmdHelp=&Help... | Help on CoolTemplate
+; Menu-items
+mnuOptions=&Options
+mnuAbout=&About
+; For controls on "Welcome" step"
+lblWelcome(0)=Welcome to CoolTemplate
+lblWelcome(1)=CoolTemplate is a wizard that will guide you through the process of building templates for CoolWeb, a powerful website creation wizard.
+lblWelcome(2)=With CoolTemplate, creating templates for CoolWeb is easy and automated. CoolTemplate will automatically generate required files for you. You only have to fill up some fields!
+lblWelcome(3)=Click Next to continue.
+; For controls on "Select Template File" step
+lblTemplateInfo=CoolTemplate needs the main HTML file of the template, which contains the code for it. To choose this file, click Browse and just select it. Click Next when done.
+lblTemplateFile=Template File:
+cmdBrowseTemp=&Browse... | Browse template file
+txtTemplate= | Path to the HTML file of your template
+; For controls on "Provide Information" step
+lblTName=Name:
+lblTAuthor=Author:
+lblTDescription=Description:
+lblTURL=URL:
+lblCheck=Check:
+lblTNameEx=e.g  My Template, Moody, Beautiful Day
+lblAuthorEx=e.g  Van Helsing, Bill Gates, Jacky Chan
+lblDescriptionEx=e.g  "Modern, Stylish and Light template"
+lblRWidth=Resolution Width:
+lblRHeight=Resolution Height:
+lblURL= | Check whether the given URL opens in the browser after clicking
+txtName=New Template | Name of template
+txtAuthor= | Name of the author of template
+txtDescription= | Short description of template
+txtURL= | Website of the author of template
+txtRWidth= | Resolution width of the screenshots
+txtRHeight= | Resolution height of the screenshots
+chkStretch=&Stretch Screenshots | Check if you want to stretch screenshots to fit their sizes otherwise specify resolution
+; For controls on "Place Comments" and "Setup Menu-Items" steps
+lblAdd=Add:
+cmbComments= | Add a comment to the HTML code
+{1}tbrMenuItem= | The selected is the code for a single menu-item.
+; For controls on "Finish" step
+lblFinish(0)=Congratulations!
+lblFinish(1)=CoolTemplate has successfully created your personalized template. You can now run CoolWeb and start building websites with it. Have a good day!
+lblFinish(2)=Click Finish to exit.
+chkRun=&Run CoolWeb | Check if you want to run CoolWeb and test your template after clicking Finish
+
+[frmOptions]
+frmOptions=Options
+cmdOK=&OK | Save options and exit dialog
+cmdCancel=&Cancel | Cancel without saving
+cmdBrowse= | Browse webshotcmd.exe
+txtWebShot= | WebShot Path
+lblWebShot=WebShot Path:
+cmbTrans= | Available Languages
+lblLanguage=UI Language:

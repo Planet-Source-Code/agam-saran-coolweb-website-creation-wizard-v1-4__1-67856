@@ -1,0 +1,181 @@
+; English (Default) Translation for CoolWeb
+
+
+; Strings for names of wizard-steps and their descriptions (shown at the top)
+; ----------------------------------------------------------------------------------------------
+String1=Select Project
+String2=Please select whether to load an existing project or to create a new project.
+String3=Choose Template
+String4=Select the preffered look of your website.
+String5=Provide Information
+String6=Please provide the following information required to build your site.
+String7=Build Pages
+String8=Create as many webpages as you want, along with their content.
+String9=Select Destination
+String10=Choose the destination folder where you want to save your website.
+
+
+; Other strings for different texts used in the GUI
+; ----------------------------------------------------------------------------------------------
+; Strings for the Caption and ToolTip of "cmdNext" button which change as the wizard continues
+String101=&Next >
+String102=Continue to next step
+String103=&Build
+String104=Build your website
+String105=&Finish
+String106=Finish creating website
+; String for the message of "Select Destination" Browse-for-Folder dialog
+String107=Select the folder to which save your website.
+; String for each new page added to the menu in CoolWeb, do not forget to enter a trailing space at the end
+String108=New Page 
+; For the 3 modes of adding pages in the "Add Page" dialog.
+String109=Create a Blank Page
+String110=Open an Existing Page
+String111=Create from a Pre-defined Page
+; String for the message of "Default Destination" Browse-for-Folder dialog
+String112=Please select the defualt destination path for CoolWeb.
+; For the first page in the menu
+String113=Home
+
+
+; Strings for messages shown in message & field-boxes and their titles
+; ----------------------------------------------------------------------------------------------
+String501=Invalid Project
+String502=Invalid project file to save.
+String503=Invalid project file to load.
+String504=No Information
+String505=You must provide the required information in order to continue.
+String507=No Destination
+String508=You must provide the destination folder.
+String509=Invalid Destination
+String510=The destination path you specified is invalid, please provide full path.
+String511=Overwrite
+String512= already exists.
+String513=Do you want to overwrite it? Its content will be lost.
+String514=Character Map
+String515=CharMap.exe was not found on your computer.
+String516=Delete Page
+String517=This will delete '
+String518=' and its content. Are you sure you want to continue?
+String519=No Page-name
+String520=Please enter the name of the page, in order to continue.
+String521=Field Unspecified
+String522=You must enter both, the path and the name of the file.
+String523=Invalid File
+String524=The file you specified does not exist, please choose another file.
+String525=Already Exists
+String526=This page already exists, please choose a different page name.
+String527=Rename Page
+String528=Please enter the new page-name:
+String529=Reload CoolWeb
+String530=CoolWeb requires to reload to continue. Click OK to reload and erase the work you were doing. Click Cancel to show changes next time.
+
+
+[frmMain]
+; Title of the main form
+frmMain=CoolWeb - Website Creation Wizard
+cmdNext=&Next > | Continue to next step
+cmdBack=< &Back | Go to previous step
+cmdCancel=&Cancel | Exit CoolWeb
+cmdHelp=&Help... | Help on CoolWeb
+; Menu-Items
+mnuUndo=&Undo
+mnuRedo=&Redo
+mnuCut=Cu&t
+mnuCopy=&Copy
+mnuPaste=&Paste
+mnuDelete=&Delete
+mnuSelectAll=&Select All
+mnuAddPage=&Add Page
+mnuDeletePage=&Delete Page
+mnuRenamePage=&Rename Page
+mnuOptions=&Options
+mnuContents=&Contents
+mnuAbout=&About
+; For controls in the "Welcome" step
+lblWelcome(0)=Welcome to CoolWeb
+lblWelcome(1)=Thank you for downloading CoolWeb, a powerful and easy-to-use website creation wizard.
+lblWelcome(2)=CoolWeb will enable you to build professional-looking websites within minutes. It will take about only 10 minutes to create your ready-to-publish personal website, which you can show to everyone after then.
+lblWelcome(3)=Click Next to continue.
+; For controls in the "Select Project" step
+optProject(0)=Do not create or load anything, just build my website | Select if you do not want to reload your website project in the future
+optProject(1)=Create a new CoolWeb Project | Select if you want to save your website as an project which can be reloaded later
+optProject(2)=Load an existing CoolWeb Project | Select to load a pre-existing website project
+txtProject(0)= | Path to save your project in
+txtProject(1)= | Path to load your project from
+cmdBrowsePro=&Browse... | Navigate project file
+lblSaveTo=Save to:
+lblLoadFrom=Load from:
+; For controls in the "Choose Template" step
+lstTemplates= | List of available templates
+picSelTemp= | Preview of the selected template
+lblTAuthor=Author:
+lblTWebsite=Website:
+lblTDescription=Description:
+; For controls in the "Provide Information" step
+lblWTitle=Title:
+txtTitle=My Website | Title of your website
+lblWTitleInfo=Name that will appear in the titlebar of your website.
+lblWTitleEx=e.g Johny Bravo's Website, Home of Headcrabs
+lblWAuthor=Author:
+txtAuthor= | Your name
+lblWAuthorInfo=This name will appear at the bottom of webpages
+lblWAuthorEx=e.g Einstein, Agam Saran, Bill Clinton
+chkUnicode=I am using Unicode characters for my website | Check if you use international characters in your website but this will drastically increase build times
+; For controls in the "Build Pages" step
+{1}tbrMenu= | Add Page
+{2}tbrMenu= | Delete Page
+{1}tbrEdit= | Bold
+{2}tbrEdit= | Italic
+{3}tbrEdit= | Underline
+{5}tbrEdit= | Left Justified
+{6}tbrEdit= | Center Justified
+{7}tbrEdit= | Right Justified
+{9}tbrEdit= | Indent
+{10}tbrEdit= | Outdent
+{12}tbrEdit= | Ordered List
+{13}tbrEdit= | Unordered List
+{15}tbrEdit= | Hyperlink
+{16}tbrEdit= | Image
+{17}tbrEdit= | Font
+{19}tbrEdit= | Remove Formatting
+{20}tbrEdit= | Character Map
+; For controls in the "Select Destination" step
+lblDesInfo=CoolWeb will create your website in the following folder. To create in a different folder, click Browse and select another folder. Click Next when done.
+lblDestination=Destination:
+cmdBrowseDes=&Browse... | Browse to select a destination folder
+txtDestination= | The folder to place your website in
+; For controls in the "Finish" step
+lblFinish(0)=Congratulations!
+lblFinish(1)=CoolWeb has successfully created your website. If you created it the way you want, you can publish it on the web without any further changes. Have a good day!
+lblFinish(2)=Click Finish to exit.
+chkView=&View my website | Check if you want to view your website after clicking Finish
+
+[frmAdd]
+frmAdd=Add Page
+cmdAdd=&Add | Add page to the menu
+cmdCancel=&Cancel | Cancel adding page
+{1}tbrTabs= | Blank Page
+{2}tbrTabs= | Open Page
+{3}tbrTabs= | Pre-defined Page
+txtName= | Name of webpage that would appear in the menu
+txtFile= | Location of webpage to add
+lstPages= | List of available pre-defined pages
+{1}lstPages=Pre-defined Pages
+cmdBrowse=&Browse... | Browse for Webpages
+lblFile=File:
+lblName=Name:
+
+[frmOptions]
+frmOptions=Options
+cmdOK=&OK | Save options and exit dialog
+cmdCancel=&Cancel | Cancel without saving
+cmdBrowse= | Browse directories
+txtCustDes= | Path of the default destination directory
+optDestination(1)=Windows Desktop | Set Desktop as default destination
+optDestination(2)=User-defined (Custom) | Use a custom directory as default destination
+lblDefaultDes=Default Destination:
+chkAssociate=Associate CoolWeb Projects (".cwp" files) with CoolWeb | Checking this option will allow you to open CoolWeb Projects by just clicking them
+chkUnicode=Check "I am using Unicode characters for my website" by default | Check this option if you often use Unicode (International) characters in pages
+cmbTrans= | Available Languages
+lblLanguage=UI Language:

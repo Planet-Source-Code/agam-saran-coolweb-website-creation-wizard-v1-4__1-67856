@@ -1,0 +1,97 @@
++ = Added
+^ = Updated
+* = Fixed
+
+
+
+v1.4 - 6th May 2007
+(+) CoolWeb goes multi-lingual, adding support for displaying its UI in various languages. Although no translations are included yet (I do not know any other Left-to-Right language other than English), I hope users would be kind-enough to help me make its translations.
+(+) CoolWeb and CoolTemplate are now maximizable at "Build Pages" and "Place Comments" steps respectively. This makes entering text a bit easier.
+(+) Added a cool new About-box.
+(+) Added an Options dialog that can be used to change the UI language and some other options.
+(+) CoolWeb Projects can now be associated with CoolWeb, you can just open projects by clicking them. This option is disabled by default so you have to enable it by using the menu stated above.
+(+) Indent, Outdent and Remove Formatting toolbar buttons added in "Build Pages" step. Redo was also added to the right-click menu of the DHTMLEdit Control.
+(^) Dropped the 's' from the name of "CoolTemplates", making it "CoolTemplate".
+(*) If two projects were loaded one after another then CoolWeb loaded both at the same time instead of unloading first and loading second; fixed.
+(*) The included sample project ("Sample Project.cwp") was of old INI type so it didn't work with CoolWeb; replaced with the new XML type.
+(^) Used Microsoft XML v2 instead of Microsoft XML v3 in Load/Save Project feature for compatibility with Windows 98.
+(^) Modified the Message-box to look better.
+(^) Made some changes to the code for performance which were suggested and notified by Roger Gilchrist. Thanks Roger!
+(^) Used resource files for the XP manifest ("Manifest.res") rather than manifest files ("CoolWeb.exe.manifest" and "CoolTemplates.exe.manifest").
+(*) The screenshots of some templates were looking odd; edited them to look better.
+(*) CoolWeb crashed when something like "C:\" was put in the Destination or Project paths; fixed.
+(^) Lots of lots of other improvements for speed, performance and readability.
+
+
+v1.3 - 24th March 2007
+(^) CoolWeb now uses XML-data instead of INI-data for its projects(".cwp" files). Besides improving speed, this solved many other problems. But I'm afraid old projects won't work.
+(+) An option added on the "Provide Information" step of CoolTemplates that allows to select whether to stretch screenshots (of the template it is creating) to fit their sizes or to use custom resolutions. The quality of sceenshots can be improved much if this option is used correctly.
+(+) The use of Unicode characters can now be specified as an option on the "Provide Information" step. Disabling this option drastically improves build times in bigger jobs, so this option is disabled by default.
+(+) Inserted ToolTips to controls in the GUI of CoolWeb and CoolTemplates.
+(*) Used PictureBoxes instead of Frames as containers to prevent flickering that occured when manifest files were used and the user moved mouse-cursor fast on the GUI.
+(*) "SHCreateDirectoryEx", an API not found on Win98, was used in CoolTemplates. Substituted with "CreateFolder" function by Xpert.
+(*) The author name did not appear at the footer of webpages when using "Tick Tock" template; fixed. The credit goes to Xpert for pointing this.
+(*) Pressing Tab in the Rich TextBox of CoolTemplates (txtCode) moved focus to the next control instead of adding tab-spaces; fixed.
+(^) Used the Tranparency Color technique instead of Polygon Points technique in the Wait dialog (frmWait) of CoolTemplates. This made the code much compact and improved the speed a bit.
+(^) Many other minor changes and corrections.
+
+
+v1.2.5 - 17th March 2007
+(+) The path of  WebShot (webshotcmd.exe) can now be re-defined anytime on the About dialog of CoolTemplates.
+(^) Used version numbers instead of dates of release.
+(*) CoolTemplates changed some paths incorrectly in the stylesheets of templates; fixed. For Example, it changed img('images/header.jpg') to img(header.jpg') instead of img('header.jpg'). Full credit goes to TerriTop for pointing this out.
+(*) CoolTemplates showed "Out of Memory" if WebShot was not found and it was used with a manifest file; fixed.
+(^) Other minor changes.
+
+
+v1.2.4 - 13th March 2007
+(+) Added 3 more templates: Greenery, Integral and Refresh.
+(^) Expanded the user-interface of CoolWeb a bit.
+(^) Ran the "Code Fixer" by Roger Gilchrist on CoolWeb and CoolTemplates.
+(*) CoolWeb did not re-save existing projects if any changes were made to them; fixed. Thanks to Goober Mpc for notifying this.
+
+
+v1.2.3 - 7th March 2007
+(+) Added some graphics to the GUI of CoolWeb.
+(+) Right-click Menu for the Menu-items ListBox (lstMenu) in "Build Pages" step added.
+(+) Menu-items (or Pages) can now be renamed through the menu stated above.
+(+) Added another comment-type "<!--Year-->" which is replaced with the year of creation of website.
+(+) CoolTemplates now shows a "Wait" dialog while the process of building template is in progress.
+(^) Modified the message-box to be able to show an input-box through the "FieldBox" function.
+(^) Updated all templates to use "<!--Year-->" comment.
+(^) The "Run CoolWeb" checkbox at the "Finished" step of CoolTemplates now becomes disabled if "CoolWeb.exe" is not found in the CoolWeb directory.
+
+
+v1.2.2 - 3rd March 2007
+(+) Added a Flash demo that shows how to create the Grassy template. See ".\CoolTemplates\Demo\Grassy Demo.htm"
+(+) Added a custom Message Box designed by me.
+(^) The code of webpages generated with CoolWeb is now indented.
+(^) CoolTemplates used an extra Rich TextBox (txtTemp) for loading some temporary files; removed.
+(^) CoolWeb now shows a warning if user selects to save project and the project file is not specified or is invalid.
+(*) CoolWeb replaced "," in "main.txt" and "menuitem.txt" with a new line; fixed.
+
+
+v1.2.1 - 26th February 2007
+(+) 2 more templates added: Grassy and Tick Tock.
+(+) Support for Unicode characters added. Thanks to Pietro Cechhi, for notifying that support for Unicode characters should be added and giving the code (TakeCareOfUnicode function) to do this.
+(+) A toolbar button added in "Build Pages" step that runs "charmap.exe" or Character Map for you making inserting Unicode characters easier. The credit goes to Pietro Cechhi again.
+(+) Right-click Menu for the DHTMLEdit control in "Build Pages" step added.
+(^) CoolTemplates now checks for template name in the "Provide Information" step. If the specified template name already exists, it gives a warning.
+(^) Updated documentation.
+(*) "SHCreateDirectoryEx" was not in the shell of Windows 98; substituted with "CreateFolder" by Xpert. Full credit goes to Xpert for notifying this and providing his excellent "CreateFolder" function that does everything "SHCreateDirectoryEx" can do.
+(*) CoolTemplates replaced "," in the stylsheets with a new line; fixed.
+
+
+v1.2 - 22nd February 2007
+(+) CoolTemplates added, which can be used to create templates for CoolWeb.
+(+) CoolWeb saves its path to "HKEY_LOCAL_MACHINE\SOFTWARE\CoolWeb" in the registry.
+(^) Made some changes to the documentation.
+
+
+v1.1 - 16th February 2007
+(+) Create and Load Projects feature added.
+(^) Corrected minor spelling mistakes in the interface and "Readme.txt".
+
+
+v1.0 - 13th February 2007
+(+) Initial Release.

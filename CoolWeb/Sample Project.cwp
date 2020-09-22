@@ -1,0 +1,50 @@
+<Project><Template>Dreamy</Template><Title>Test Website</Title><Author>Tester</Author><Destination>C:\Documents and Settings\Agam Saran\Desktop\My Website</Destination><Unicode>1</Unicode><Pages>3</Pages><Home>&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;META NAME="GENERATOR" Content="Microsoft DHTML Editing Control"&gt;
+&lt;TITLE&gt;&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+&lt;P&gt;&lt;FONT face=Verdana size=2&gt;This is just to test the Create/Load Project 
+feature of &lt;STRONG&gt;CoolWeb&lt;/STRONG&gt;.&lt;STRONG&gt; &lt;/STRONG&gt; So do not read 
+it!&lt;/FONT&gt;&lt;/P&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;</Home><Page1 Name="Personal">&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;META NAME="GENERATOR" Content="Microsoft DHTML Editing Control"&gt;
+&lt;TITLE&gt;&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+&lt;P&gt;&lt;FONT size=2&gt;&lt;FONT face=Verdana&gt;&lt;FONT 
+color=#ff0000&gt;&lt;STRONG&gt;This is nothing personal, stupid. &lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT 
+color=#000000&gt;But let us test unicode characters:&lt;/FONT&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P&gt;&lt;FONT color=#808080 size=7&gt;&amp;#904;&amp;#947;&amp;#961;&amp;#949;&amp;#954;&amp;#945;!&lt;/FONT&gt;&lt;/P&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;</Page1><Page2 Name="Links">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"&gt;
+&lt;HTML&gt;&lt;HEAD&gt;
+&lt;META http-equiv=Content-Type content="text/html; charset=unicode"&gt;
+&lt;META content="MSHTML 6.00.2900.2180" name=GENERATOR&gt;&lt;/HEAD&gt;
+&lt;BODY&gt;&lt;p&gt;Here are some links which may prove to be useful for you.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.planer-source-code.com/"&gt;Planet-Source-Code&lt;/a&gt;
+&lt;li&gt;&lt;a href="http://www.oswd.org/"&gt;Open-Source Web Development&lt;/a&gt;
+&lt;li&gt;&lt;a href="http://www.developerfusion.com/"&gt;Developer Fusion&lt;/a&gt;
+&lt;li&gt;&lt;a href="http://www.wikipedia.org/"&gt;Wikipedia&lt;/a&gt;
+&lt;li&gt;&lt;a href="http://www.bravenet.org/"&gt;Bravenet&lt;/a&gt;
+&lt;li&gt;&lt;a href="http://www.freewarefiles.com/"&gt;FreewareFiles&lt;/a&gt;
+&lt;li&gt;&lt;a href="http://www.freedomain.co.nr/"&gt;FreeDomain.co.nr&lt;/a&gt;
+&lt;li&gt;&lt;a href="http://www.w3schools.com/"&gt;W3Schools&lt;/a&gt;
+&lt;li&gt;&lt;a href="http://www.dynamicdrive.com/"&gt;Dynamic Drive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you think that a valuable link should be added to 
+this page or if you have found a broken link on this page, please contact 
+me.&lt;/p&gt;&lt;/BODY&gt;&lt;/HTML&gt;</Page2><Page3 Name="Contact">&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;META NAME="GENERATOR" Content="Microsoft DHTML Editing Control"&gt;
+&lt;TITLE&gt;&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+&lt;P&gt;&lt;FONT face=Verdana size=2&gt;If you would like to contact 
+me, go to &lt;EM&gt;hell&lt;/EM&gt;. I will meet you &lt;EM&gt;there&lt;/EM&gt;. Hope to see you 
+soon.&lt;/FONT&gt;&lt;/P&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;</Page3></Project>
